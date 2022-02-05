@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  web:
+    build: .
+    # ports:
+    # - "80:80"
+    volumes:
+    - .:/app
+    restart: always
+volumes:
+  .:
+    external: true

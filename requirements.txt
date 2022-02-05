@@ -1,0 +1,4 @@
+discord
+web3
+python-dotenv
+beautifulsoup4
